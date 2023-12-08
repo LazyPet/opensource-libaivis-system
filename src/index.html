@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Li Bai Visualization</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.staticfile.org/echarts/5.4.0/echarts.min.js"></script>
+    <script src="https://api.map.baidu.com/getscript?v=3.0&amp;ak=替换你申请的的百度地图接口&amp;services=&amp;t=20200327103013"></script>
+    <script src="lib/bmap.js"></script>
+    <script src="lib/jquery-2.4.2.min.js"></script>
+</head>
+<body>
+    <section class="top">
+        <section class="left">
+            <div class="vis1 pieChart">
+
+            </div>
+            <div class="vis2 rendarChart">
+            <div>
+        </section>
+        <section class="middle"> 
+            <div class="vis3 baiduMapChart"> 
+            </div>
+        </section>
+        <section class="right">
+            <div class="vis4 barChart"> 
+            </div>
+            <div class="vis5 roseChart"> 
+            </div>
+            
+           
+        </section>
+    </section>
+   
+   <section class="bottom">
+    <!-- 图表5 -->
+    <div class="vis6 lineChart"> 
+    </div>
+   </section>
+
+   <section class="interactor">
+        <div class="roseChartInter selectBox">
+            <select name="period" class="selectPeriod">
+                <option value="allyear">总体</option>
+                <option value="youngage">少年-青年</option>
+                <option value="middleage">青年-中年</option>
+                <option value="olderage">中年-老年</option>
+                
+            </select>
+        </div>
+
+        <div class="bmapChartInter buttonBox">
+            <button class="bmapButton">重新演示</button>
+            <select name="timeout" class="selectTimeout">
+                <option value="slow">速度：慢</option>
+                <option value="middle">速度：中</option>
+                <option value="fast">速度：快</option>
+            </select>
+        </div>
+   </section>
+
+</body>
+<script src="./js/index.js" type="module"></script>
+</html>

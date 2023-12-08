@@ -1,0 +1,17 @@
+{
+    "youngage":[
+        { "value": 1048, "name": "Positive" },
+        { "value": 735, "name": "Negative" },
+        { "value": 580, "name": "Normal"}
+    ],
+    "middleage":[
+        { "value": 1048, "name": "Positive" },
+        { "value": 735, "name": "Negative" },
+        { "value": 580, "name": "Normal"}
+    ],
+    "oldage":[
+        { "value": 1048, "name": "Positive" },
+        { "value": 735, "name": "Negative" },
+        { "value": 580, "name": "Normal"}
+    ]
+}

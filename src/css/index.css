@@ -1,0 +1,123 @@
+/*-------------------------总体布局 layout-------------------------- */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    width: 100%;
+    height: 78%;
+}
+
+.top .left{
+    float: left;
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+
+.top .middle{
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.top .right{
+    float: left;
+    width: 25%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+.bottom{
+    width: 100%;
+    height: 22%;
+    /* background-color: blueviolet; */
+}
+
+
+/*------------------- 可视化图表盒子布局 visbox--------------------- */
+.vis1{
+    width: 100%;
+    height: 50%;
+}
+
+.vis2{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(62, 102, 138); */
+}
+
+.vis3{
+    width: 100%;
+    height: 100%;
+    /* background-color: bisque; */
+}
+
+.vis4{
+    width: 100%;
+    height: 50%;
+    /* background-color: brown; */
+}
+
+.vis5{
+    width: 100%;
+    height: 50%;
+   /* background-color: rgb(253, 205, 255); */
+}
+
+.vis6{
+    width: 100%;
+    height: 100%;
+    /* background-color: azure; */
+}
+
+/*----------------bmap css bmap样式设置------------------------*/
+.ec-extension-bmap{
+    position: relative!important;
+}
+
+.Bmap_cpyCtrl{
+    display: none !important;
+}
+
+.anchorBL{
+    display: none !important;
+}
+
+/*-------------------交互框样式设置----------------------------*/
+
+.selectBox{         /*rose map */
+    position: absolute;
+    z-index: 99999;
+    right: 1%;
+    top: 40.75%;
+}
+
+.selectTimeout{     /*bmap*/
+    position: absolute;
+    z-index: 99999;
+    right: 26%;
+    top: 2%;
+}
+
+.bmapButton{      
+    width: 70px; 
+    height: 18px;
+    position: absolute;
+    z-index: 99999;
+    right: 30.5%;
+    top: 2%;
+    line-height: 1;
+}
