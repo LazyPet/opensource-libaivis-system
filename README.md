@@ -9,7 +9,7 @@
 
 #### 安装教程
 
-1.  xxxx
+1.  需要将百度地图API的Token替换成你自己申请的Token
 2.  xxxx
 3.  xxxx
 
